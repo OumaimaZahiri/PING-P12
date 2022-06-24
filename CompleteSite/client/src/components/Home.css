@@ -1,0 +1,89 @@
+#database {
+   display:grid;
+   grid-template-columns: repeat(2, minmax(0, 1.5fr));
+   grid-gap:15px;
+   margin-right: 0%;
+   /*flex-direction: line;
+   justify-content: center;
+   flex-grow: 1;
+   padding-bottom: 1rem;
+   padding: 1rem;
+   align-items: center;
+   justify-content: center;*/
+}
+
+#outline {
+   width: 200px;
+   height: 30px;
+}
+
+#comparison {
+   height: 25px;
+   width: 20px;
+   margin-top: auto;
+}
+
+#search {
+   width: 100px;
+   height: 30px;
+   font-size: 18px;
+   text-align : center;
+   /* position: relative; */
+}
+
+
+#images {
+    display: block;
+    position: relative;
+    justify-content: center;
+    position: relative;
+}
+.hide {
+    display: none;
+}
+button {
+   display: block;
+   flex-direction: column;
+    justify-content: center;
+   width: 110px;
+   cursor: pointer;
+   /*align-content:start;*/
+   /*margin-top: 5%;*/
+   margin-left: 5px;
+   text-align:center;
+   transform-origin: center-top;
+  }
+
+#grade{
+    width: 400px;
+}
+#display {
+   margin: 0 ;  
+   position: relative;
+   top:80px;
+   
+    /*overflow:auto;*/
+ }
+ #canvas1 {
+    float:left;
+    vertical-align: text-top;
+ }
+ #canvas2 {
+    overflow:auto;
+    /*margin-left: 60%;
+    vertical-align: top;*/
+ }
+ #marks {
+   position: relative;
+   margin-top: auto;
+    text-align: center;
+ }
+
+ #sendGrade, 
+ #showStats {
+   width:auto
+ }
+ /* #conclude {
+    text-align: center;
+ } 
+ } */

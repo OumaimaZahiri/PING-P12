@@ -1,0 +1,3 @@
+ALTER TABLE contour ADD CONSTRAINT fk_contour_organ FOREIGN KEY(id_organ) REFERENCES organ(id_organ)
+ALTER TABLE contour DROP CONSTRAINT fk_contour_organ
+DROP DATABASE contour_evaluation

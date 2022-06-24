@@ -1,0 +1,1 @@
+SELECT organ.name, contour.path FROM organ INNER JOIN contour ON organ.id_organ = contour.id_organ WHERE organ.name = "AnalCanal"
